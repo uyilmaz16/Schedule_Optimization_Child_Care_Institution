@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<settings version="2">
+  <category name="cplex">
+    <setting name="tilim" value="1800.0"/>
+    <setting name="mipdisplay" value="4"/>
+    <setting name="probe" value="3"/>
+    <setting name="lbheur" value="true"/>
+    <setting name="rinsheur" value="10"/>
+    <setting name="cliques" value="2"/>
+  </category>
+</settings>
