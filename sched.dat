@@ -4,23 +4,19 @@
  * Creation Date: Jul 8, 2020 at 12:34:59 PM
  *********************************************/
 
-//daypattern = [[1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0]
- //[0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]];
-  
-
 
 Emps = { <"Aysun Guler" -1>
-<"Hatice Yagcioglu" -1>
-<"Ulviye Ozkar" 1>
-<"Arzu Erdogan" -1>
-<"Muserref Ucak" 1>
-<"Huriye Ustun" 1>
-<"Tugba Sahin" -1>
-<"Yesim Nazligul" 1>
-<"Zeliha Ozgun" -1>
-<"Ayse Aribakan" 1>
-<"Elvan Karaca" 1>
-<"Pinar Unel" 1> } ;
+<"H.Y." -1>
+<"U.O." 1>
+<"A.E." -1>
+<"M.U." 1>
+<"H.U." 1>
+<"T.S." -1>
+<"Y.N." 1>
+<"Z.O." -1>
+<"A.A." 1>
+<"E.K." 1>
+<"P.U." 1> } ;
 
 Shifts = { <1 "Mon" "A" 3>
 		<1 "Mon" "B" 2>
@@ -79,5 +75,5 @@ Shifts = { <1 "Mon" "A" 3>
 		<28 "Sun" "A" 3>
 		<28 "Sun" "B" 2> };
 		
-Forbidden = { <"Huriye Ustun", "Pinar Unel"> };
+Forbidden = { <"H.U.", "P.U."> };
 		
