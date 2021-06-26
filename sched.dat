@@ -1,0 +1,83 @@
+/*********************************************
+ * OPL 12.5.1.0 Data
+ * Author: yilmazu
+ * Creation Date: Jul 8, 2020 at 12:34:59 PM
+ *********************************************/
+
+//daypattern = [[1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0]
+ //[0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1]];
+  
+
+
+Emps = { <"Aysun Guler" -1>
+<"Hatice Yagcioglu" -1>
+<"Ulviye Ozkar" 1>
+<"Arzu Erdogan" -1>
+<"Muserref Ucak" 1>
+<"Huriye Ustun" 1>
+<"Tugba Sahin" -1>
+<"Yesim Nazligul" 1>
+<"Zeliha Ozgun" -1>
+<"Ayse Aribakan" 1>
+<"Elvan Karaca" 1>
+<"Pinar Unel" 1> } ;
+
+Shifts = { <1 "Mon" "A" 3>
+		<1 "Mon" "B" 2>
+		<2 "Tues" "A" 3>
+		<2 "Tues" "B" 2>
+		<3 "Wed" "A" 3>
+		<3 "Wed" "B" 2>
+		<4 "Thrs" "A" 3>
+		<4 "Thrs" "B" 2>
+		<5 "Fri" "A" 3>
+		<5 "Fri" "B" 2>
+		<6 "Sat" "A" 3>
+		<6 "Sat" "B" 2>
+		<7 "Sun" "A" 3>
+		<7 "Sun" "B" 2>
+		<8 "Mon" "A" 3>
+		<8 "Mon" "B" 3>
+		<9 "Tues" "A" 3>
+		<9 "Tues" "B" 2>
+		<10 "Wed" "A" 3>
+		<10 "Wed" "B" 2>
+		<11 "Thrs" "A" 3>
+		<11 "Thrs" "B" 2>
+		<12 "Fri" "A" 3>
+		<12 "Fri" "B" 2>
+		<13 "Sat" "A" 3>
+		<13 "Sat" "B" 2>
+		<14 "Sun" "A" 3>
+		<14 "Sun" "B" 2>
+		<15 "Mon" "A" 3>
+		<15 "Mon" "B" 2>
+		<16 "Tues" "A" 3>
+		<16 "Tues" "B" 2>
+		<17 "Wed" "A" 3>
+		<17 "Wed" "B" 2>
+		<18 "Thrs" "A" 3>
+		<18 "Thrs" "B" 2>
+		<19 "Fri" "A" 3>
+		<19 "Fri" "B" 2>
+		<20 "Sat" "A" 3>
+		<20 "Sat" "B" 2>
+		<21 "Sun" "A" 3>
+		<21 "Sun" "B" 2>
+		<22 "Mon" "A" 3>
+		<22 "Mon" "B" 2>
+		<23 "Tues" "A" 3>
+		<23 "Tues" "B" 2>
+		<24 "Wed" "A" 3>
+		<24 "Wed" "B" 2>
+		<25 "Thrs" "A" 3>
+		<25 "Thrs" "B" 2>
+		<26 "Fri" "A" 3>
+		<26 "Fri" "B" 2>
+		<27 "Sat" "A" 3>
+		<27 "Sat" "B" 2>
+		<28 "Sun" "A" 3>
+		<28 "Sun" "B" 2> };
+		
+Forbidden = { <"Huriye Ustun", "Pinar Unel"> };
+		
