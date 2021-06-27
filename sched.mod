@@ -24,14 +24,12 @@ int day = 28;
 
 range days = 1..day;
 
-//int daypattern[0..1][Days]  = ... ;
 
 {emp} Emps = ...;
 {shift} Shifts = ...;
 {couple} Forbidden with emp1 in Emps, emp2 in Emps = ... ;
 
 
-//dvar int PatternAssignment[Emps] in 0..1 ;
 dvar int Assignment[Emps][Shifts] in 0..1 ;
 dvar int Viol_Pattern[Emps][Shifts]  in 0..1 ;
 dvar int Viol_Minus[Shifts] in 0..1 ;
@@ -52,12 +50,7 @@ minimize
 
 subject to {
 	
- 	//forall(e in Emps, s1, s2 in Shifts, d in Days: 
- 	// d == s1.day && d == s2.day && s1.time != s2.time) 
- 	// daypattern[PatternAssignment[e]][d] == Assignment[e][s1] + Assignment[e][s2];
-  
-  
-  
+ 	
   //Successive days
   forall(e in Emps, s1, s2, s3, s4 in Shifts, d in days :
    ((d == s1.day && d == s2.day && d+1 == s3.day &&
@@ -85,10 +78,5 @@ subject to {
    forall( < e1 , e2 > in Forbidden , s in Shifts )
       Assignment[e1][s] + Assignment[e2][s] <= 1   ;
       
- //  forall(e in Emps)
- //   abs( Viol_Pattern_Emp[e] - (sum(e in Emps) Viol_Pattern_Emp[e]) / 12 ) <= 1  ;
-    
-  //  forall(e in Emps)
-    //  Viol_Pattern_Emp[e] <= 2 ;
       
 }
