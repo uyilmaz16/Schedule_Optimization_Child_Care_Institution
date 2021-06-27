@@ -1,2 +1,2 @@
 # Schedule_Optimization_Child_Care_Institution
-Generates a schedule of 28 days consisting of 2 shifts (A, B) and 12 workers. Regulatory requirements, managament demands and worker satisfaction were considered. Violation of soft constraints were penalized in the objective function.
+Generates a schedule of 28 days consisting of 2 shifts (A, B) and 12 employees. Regulatory requirements ("Successive days"), managament demands ("minusplus", "forbidden") and employee satisfaction (Viol_Pattern_Emp) were considered. Violation of soft constraints were penalized in the objective function. Quadratic terms were used in the objective function to achieve a more stable distribution across shifts and employees. 
